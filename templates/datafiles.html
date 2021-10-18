@@ -1,0 +1,5 @@
+<list>
+{{ range .payload }}
+    <li><a href="/chart/display?datafile={{.Name}}">{{.Name}}</a></li>
+{{end}}
+</list>
